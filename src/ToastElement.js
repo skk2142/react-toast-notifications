@@ -152,6 +152,7 @@ const ToastElement = styled.div(
       marginBottom: gutter,
       transition: `transform ${transitionDuration}ms cubic-bezier(0.2, 0, 0, 1)`,
       width: toastWidth,
+      zIndex: 99999999,
       ...toastStates(placement)[transitionState],
     };
   }
